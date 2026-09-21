@@ -42,10 +42,16 @@ const Hero = () => {
               <ArrowRight className="ml-2" size={20} />
             </button>
             
-            <button className="inline-flex items-center px-8 py-4 bg-white text-gray-700 font-semibold rounded-lg border-2 border-gray-300 hover:border-blue-600 hover:text-blue-600 transition-all duration-200 transform hover:scale-105 shadow-md hover:shadow-lg">
+            <a
+              href="/Sreejeesh_M_Resume.pdf"
+              download="Sreejeesh_M_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-8 py-4 bg-white text-gray-700 font-semibold rounded-lg border-2 border-gray-300 hover:border-blue-600 hover:text-blue-600 transition-all duration-200 transform hover:scale-105 shadow-md hover:shadow-lg"
+            >
               <Download className="mr-2" size={20} />
               Download Resume
-            </button>
+            </a>
             
             <button
               onClick={() => scrollToSection('contact')}
